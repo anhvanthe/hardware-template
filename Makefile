@@ -1,6 +1,6 @@
 VERSION?=0.1
 NAME?=
-DESIGNER?=Josh Johnson
+DESIGNER?=Tuong PV
 
 prod-files:
 	make gerb
@@ -30,4 +30,4 @@ panel-gerb:
 init:
 	rm -rf .git
 	git init
-	git submodule add git@github.com:joshajohnson/josh-kicad-lib.git
+#	git submodule add git@github.com:joshajohnson/josh-kicad-lib.git
